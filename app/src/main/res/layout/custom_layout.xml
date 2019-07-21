@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:backgroundTint="#FCF7F7"
+    app:cardCornerRadius="15dp"
+
+    >
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        >
+
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="SEID: "
+                android:textColor="#000"
+                android:layout_weight=".5"
+                />
+            <TextView
+                android:id="@+id/studentSeId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:hint="SEID"
+                android:layout_weight="1.5"
+                />
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Name: "
+                android:textColor="#000"
+                android:layout_weight=".5"
+                />
+            <TextView
+                android:id="@+id/studentName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:hint="Name"
+                android:layout_weight="1.5"
+                />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Phone: "
+                android:textColor="#000"
+                android:layout_weight=".5"
+                />
+            <TextView
+                android:id="@+id/studentPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:hint="Phone"
+                android:textColor="#000"
+                android:layout_weight="1.5"
+                />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>
